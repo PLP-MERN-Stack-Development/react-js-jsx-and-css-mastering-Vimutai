@@ -2,10 +2,10 @@
   "name": "react-week3-project",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "module",`n  "engines": { "node": "18.x" },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node ./build.cjs",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -28,3 +28,4 @@
     "vite": "^4.5.0"
   }
 }
+
