@@ -2,7 +2,7 @@
 A modern React application demonstrating component architecture, state management, and API integration with beautiful Tailwind CSS styling.
 
 🎯 Live Demo
-Deployed Application: [Add Your Live URL Here]
+Deployed Application: https://taskmanagerassign.netlify.app/
 
 📋 Assignment Requirements
 ✅ Completed Tasks
@@ -90,8 +90,10 @@ Installation
 Clone the repository
 
 bash
-git clone: https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Vimutai.git
-cd https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Vimutai.git
+git clone: https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-Vimutai.git
+
+cd https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-Vimutai.git
+
 Install dependencies
 
 bash
@@ -130,4 +132,4 @@ Vivian Mutai
 
 GitHub: https://github.com/Vimutai
 
-Project Link: [Your Repository URL]
+Project Link: https://taskmanagerassign.netlify.app/
