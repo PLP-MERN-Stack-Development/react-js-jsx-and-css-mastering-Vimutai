@@ -2,7 +2,8 @@
   "name": "react-week3-project",
   "private": true,
   "version": "0.0.0",
-  "type": "module",`n  "engines": { "node": "18.x" },
+  "type": "module",  
+  "engines": { "node": "18.x" },
   "scripts": {
     "dev": "vite",
     "build": "node ./build.cjs",
