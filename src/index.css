@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small theme transition */
+:root { --transition: 200ms ease; }
+html { transition: background-color var(--transition), color var(--transition); }
+
+/* optional: small helper so unstyled content looks nicer until tailwind applies */
+body {
+  /* these will be overridden by tailwind classes, but avoid plain browser default look */
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  line-height: 1.5;
+}

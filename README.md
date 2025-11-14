@@ -1,70 +1,133 @@
-# React.js and Tailwind CSS Assignment
+🚀 TaskMaster - React Week 3 Assignment
+A modern React application demonstrating component architecture, state management, and API integration with beautiful Tailwind CSS styling.
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+🎯 Live Demo
+Deployed Application: [Add Your Live URL Here]
 
-## Assignment Overview
+📋 Assignment Requirements
+✅ Completed Tasks
+Task 1: Project Setup with Vite, Tailwind CSS, and React Router
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+Task 2: Component Architecture (Button, Card, Navbar, Footer, Layout)
 
-## Getting Started
+Task 3: State Management & Hooks (Task Manager with CRUD operations)
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+Task 4: API Integration (JSONPlaceholder users with search & pagination)
 
-## Files Included
+Task 5: Styling with Tailwind CSS (Responsive design + Dark/Light theme)
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+🛠️ Tech Stack
+Frontend: React 18, JSX, Vite
 
-## Requirements
+Styling: Tailwind CSS
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+Routing: React Router DOM
 
-## Project Structure
+State Management: React Hooks (useState, useEffect, useContext)
 
-```
+API: JSONPlaceholder
+
+Deployment: Vercel/Netlify
+
+📁 Project Structure
+text
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+├── components/
+│ ├── UI/
+│ │ ├── Button.jsx
+│ │ ├── Card.jsx
+│ │ ├── Navbar.jsx
+│ │ └── Footer.jsx
+│ ├── Layout/
+│ │ └── Layout.jsx
+│ └── TaskManager/
+│ └── TaskManager.jsx
+├── pages/
+│ ├── Home.jsx
+│ ├── Tasks.jsx
+│ └── Users.jsx
+├── hooks/
+│ ├── useLocalStorage.js
+│ └── useApi.js
+├── context/
+│ └── ThemeContext.jsx
+└── utils/
+└── constants.js
+🚀 Features
+📝 Task Manager
+Add, complete, delete, and filter tasks
 
-## Submission
+Persistent storage with localStorage
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+Real-time task statistics
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+👥 User Directory
+Search users by name, email, or company
 
-## Resources
+Pagination with "Load More" functionality
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+API integration with JSONPlaceholder
+
+🌙 Dark/Light Theme
+Instant theme switching
+
+Persistent theme preference
+
+Smooth transitions
+
+📱 Responsive Design
+Mobile-first approach
+
+Tablet and desktop optimized
+
+🏃‍♂️ Getting Started
+Prerequisites
+Node.js (v18 or higher)
+
+npm or yarn
+
+Installation
+Clone the repository
+
+bash
+git clone: https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Vimutai.git
+cd https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Vimutai.git
+Install dependencies
+
+bash
+npm install
+Start development server
+
+bash
+npm run dev
+Open your browser
+Navigate to http://localhost:5173/
+
+Available Scripts
+npm run dev - Start development server
+
+npm run build - Build for production
+
+npm run preview - Preview production build
+
+📸 Screenshots
+Home Page
+https://./screenshots/homepage.png
+
+Task Manager
+https://./screenshots/tasks.png
+
+User Directory
+https://./screenshots/users.png
+
+Dark Mode
+https://./screenshots/dark-mode.png
+
+🚀 Deployment
+
+👨‍💻 Author
+Vivian Mutai
+
+GitHub: https://github.com/Vimutai
+
+Project Link: [Your Repository URL]
